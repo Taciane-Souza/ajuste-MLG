@@ -33,7 +33,7 @@ kable(summary(dados[,2:6]))
 attach(dados)
 ```
 
-A tabela acima apresenta os valores de mínimo, 1º quartil, mediana, média, 3º quartil e máximo para as variáveis `taxa`, `licenca`, `estradas` e `consumo`. Observamos que a variável `estradas` possui valor mínimo de 431 enquanto o valor máximo é de 17782, como estamos tratando sobre valores em mil USD, então isto significa que a ajuda federal para algumas estradas é muito maior do que para outras. Também podemos observar que a mediana ($=4736$) possui um valor menor que a média ($=5565$) o que significa que provavelmente temos uma assimetria à esquerda que poderá ser visualizado num histograma.
+A tabela acima apresenta os valores de mínimo, 1º quartil, mediana, média, 3º quartil e máximo para as variáveis `taxa`, `licenca`, `estradas` e `consumo`. Observamos que a variável `estradas` possui valor mínimo de 431 enquanto o valor máximo é de 17782, como estamos tratando sobre valores em mil USD, então isto significa que a ajuda federal para algumas estradas é muito maior do que para outras. Também podemos observar que a mediana ($=4736$) possui um valor menor que a média ($=5565$) o que significa que provavelmente temos uma assimetria positiva que poderá ser visualizado num histograma.
 
 ## Histogramas
 
